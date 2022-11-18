@@ -1,0 +1,40 @@
+name: prototype
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.1.0
+  dio: ^4.0.6
+  dio_flutter_transformer:
+    git:
+      url: https://github.com/alann-maulana/dio_flutter_transformer
+      ref: feature/null-safety
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  formz: ^0.4.1
+  freezed_annotation: ^2.1.0
+  hydrated_bloc: ^9.0.0-dev.3
+  json_annotation: ^4.6.0
+  path_provider: ^2.0.11
+  pretty_dio_logger: ^1.2.0-beta-1
+  retrofit: ^3.0.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  json_serializable: ^6.3.1
+  retrofit_generator: ^4.0.1
+
+flutter:
+  uses-material-design: true
